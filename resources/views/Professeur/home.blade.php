@@ -100,7 +100,7 @@
         <div style="display:flex; flex-direction: rows; padding-top:0%; height:7vh;">
             <button class="btn btn-success"> Cours:  @if (Session::has('cours')) {{ Session::get('cours') }} @endif</button>
             <button class="btn btn-primary " style="margin-left: 1%;">Classe: Tle</button>
-            <button class="btn btn-danger" style="margin-left: 1%;">Log out</button>
+            <button class="btn btn-danger" style="margin-left: 1%;"><a href="{{ route('deconnexion') }}" style="color: white;">Log out</a></button>
         </div>
     </div>
 </div>
@@ -115,7 +115,7 @@
                     <p>
                         Benin<br>
                         Abomey-Calavi2<br>
-                        <strong>Phone:</strong> +29 53843902<br>
+                        <strong>Phone:</strong> +229 53843902<br>
                         <strong>Email:</strong> junel@gmail.com<br>
                     </p>
                 </div>
